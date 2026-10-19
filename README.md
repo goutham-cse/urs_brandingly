@@ -12,4 +12,4 @@ A responsive, dependency-free multi-page website for the Brandingly Creative Age
 
 Open `index.html` in a browser to preview the site. The shared styles, animation behavior, and supplied visual assets live in `styles.css`, `script.js`, and `assets/`.
 
-The contact form posts to FormSubmit for delivery to `gouthamvs08@gmail.com`. FormSubmit may send a one-time verification email to that address the first time the form is used; confirm it to enable delivery.
+The contact form posts to FormSubmit for delivery to `ursbrandingly@gmail.com`. FormSubmit may send a one-time verification email to that address the first time the form is used; confirm it to enable delivery.

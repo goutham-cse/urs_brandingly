@@ -77,3 +77,17 @@
 @media(max-width:390px){
   .project-word-burn{letter-spacing:-5px}
 }
+.site-footer{text-align:center}
+.footer-top{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:16px}
+.footer-wordmark,.footer-top>a:last-child{justify-self:center}
+.footer-top>p{margin:0;text-align:center}
+.footer-top>a:last-child{overflow-wrap:anywhere;text-align:center;line-height:1.5}
+.footer-bottom{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:16px;text-align:center}
+.footer-bottom>span{text-align:center}
+.footer-bottom>div{display:flex;justify-content:center;flex-wrap:wrap;gap:15px}
+@media(max-width:620px){
+  .footer-top{grid-template-columns:1fr;gap:9px;padding-bottom:18px}
+  .footer-top>p,.footer-top>a:last-child{grid-column:auto;grid-row:auto}
+  .footer-bottom{grid-template-columns:1fr;justify-items:center;gap:12px;padding-bottom:18px}
+  .footer-bottom>div{max-width:100%;gap:12px}
+}
