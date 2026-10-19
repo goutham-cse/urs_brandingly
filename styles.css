@@ -61,3 +61,19 @@
   .project-top span{font-size:6px}
   .client-card{min-height:190px}
 }
+@media(max-width:620px){
+  .subhero{padding-top:24px;padding-bottom:16px}
+  .subhero-mark{display:none}
+  .story-section,.process-section,.services-section{padding-top:0}
+  .story-grid{padding:16px 0;gap:14px}
+  .intro-grid{padding-top:24px}
+  .value-cards{margin-top:22px}
+  .clients-section{padding-top:40px;padding-bottom:38px}
+  .client-name{font-size:27px;letter-spacing:-1px}
+  .client-name>span:last-child{font-size:10px;vertical-align:top}
+  .project-word-burn{letter-spacing:-7px}
+  .project-word-burn>span{font-size:inherit;vertical-align:baseline;font-family:inherit;font-style:normal;font-weight:inherit;letter-spacing:inherit}
+}
+@media(max-width:390px){
+  .project-word-burn{letter-spacing:-5px}
+}
